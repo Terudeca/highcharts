@@ -7,7 +7,20 @@
  */
 
 /**
- * @typedef ExportingMenuObject
+ * Function to call if the offline-exporting module fails to export a chart on
+ * the client side.
+ *
+ * @callback Highcharts.ExportingErrorCallbackFunction
+ *
+ * @param {Highcharts.ExportingOptions} options
+ *        The exporting options.
+ *
+ * @param {global.Error} err
+ *        The error from the module.
+ */
+
+/**
+ * @typedef Highcharts.ExportingMenuObject
  *
  * @property {string} [text]
  *
@@ -19,7 +32,7 @@
  */
 
 /**
- * @typedef ExportingOptionsObject
+ * @typedef Highcharts.ExportingOptionsObject
  *
  * @property {string} [filename]
  *           The file name for the export without extension.
@@ -38,19 +51,6 @@
  *
  * @property {number} [width]
  *           The width of the PNG or JPG image generated on the server.
- */
-
-/**
- * Function to call if the offline-exporting module fails to export a chart on
- * the client side.
- *
- * @callback Highcharts.ExportingErrorCallbackFunction
- *
- * @param {Highcharts.ExportingOptions} options
- *        The exporting options.
- *
- * @param {global.Error} err
- *        The error from the module.
  */
 
 'use strict';
