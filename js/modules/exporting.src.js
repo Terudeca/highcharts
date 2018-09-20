@@ -1220,7 +1220,7 @@ extend(Chart.prototype, /** @lends Highcharts.Chart.prototype */ {
      *        Exporting options in addition to those defined in
      *        {@link https://api.highcharts.com/highcharts/exporting|exporting}.
      *
-     * @param {Highchart.Options} chartOptions
+     * @param {Highcharts.Options} chartOptions
      *        Additional chart options for the exported chart. For example a
      *        different background color can be added here, or `dataLabels` for
      *        export only.
