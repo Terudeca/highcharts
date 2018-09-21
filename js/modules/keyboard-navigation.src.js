@@ -471,7 +471,7 @@ function isSkipPoint(point) {
  *
  * @param {number} [yWeight]
  *
- * @return {Highcharts.Point}
+ * @return {Highcharts.Point|undefined}
  */
 function getClosestPoint(point, series, xWeight, yWeight) {
     var minDistance = Infinity,
@@ -581,7 +581,7 @@ H.Chart.prototype.setFocusToElement = function (svgElement, focusElement) {
  * @function Highcharts.Point#highlight
  *
  * @return {Highcharts.Point}
- *         The highlighted point.
+ *         This highlighted point.
  */
 H.Point.prototype.highlight = function () {
     var chart = this.series.chart;
@@ -719,7 +719,7 @@ H.Series.prototype.highlightFirstValidPoint = function () {
  *
  * @param {boolean} down
  *
- * @return {Highcharts.Series[false}
+ * @return {Highcharts.Point[false}
  */
 H.Chart.prototype.highlightAdjacentSeries = function (down) {
     var chart = this,
