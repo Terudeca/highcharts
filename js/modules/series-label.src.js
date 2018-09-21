@@ -1,10 +1,12 @@
-/*
+/**
  * (c) 2009-2017 Torstein Honsi
  *
  * License: www.highcharts.com/license
  */
 
 /**
+ * Containing the position of a box that should be avoided by labels.
+ *
  * @typedef Highcharts.LabelIntersectBoxObject
  *
  * @property {number} bottom
