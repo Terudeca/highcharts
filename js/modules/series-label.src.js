@@ -130,7 +130,8 @@ H.setOptions({
                  * Styles for the series label. The color defaults to the series
                  * color, or a contrast color if `onArea`.
                  *
-                 * @type {Highcharts.CSSObject}
+                 * @type    {Highcharts.CSSObject}
+                 * @default {"font-weight": "bold"}
                  */
                 style: {
 
