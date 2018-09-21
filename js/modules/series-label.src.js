@@ -1,4 +1,4 @@
-/**
+/*
  * (c) 2009-2017 Torstein Honsi
  *
  * License: www.highcharts.com/license
