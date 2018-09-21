@@ -1011,7 +1011,7 @@ H.Chart.prototype.addKeyboardNavigationModules = function () {
      *
      * @param {string} id
      *
-     * @param {Array<[Array<number>,Function]>} keyMap
+     * @param {Array<Array<number>,Function>} keyMap
      *
      * @param {Highcharts.Dictionary<Function>} options
      *
