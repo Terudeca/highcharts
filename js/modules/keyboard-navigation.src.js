@@ -144,6 +144,7 @@ function getPointIndex(point) {
 H.setOptions({
 
     /**
+     * @since        5.0.0
      * @optionparent accessibility
      */
     accessibility: {
