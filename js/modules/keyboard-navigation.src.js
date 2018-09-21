@@ -720,7 +720,7 @@ H.Series.prototype.highlightFirstValidPoint = function () {
  *
  * @param {boolean} down
  *
- * @return {Highcharts.Point[false}
+ * @return {Highcharts.Point|false}
  */
 H.Chart.prototype.highlightAdjacentSeries = function (down) {
     var chart = this,
