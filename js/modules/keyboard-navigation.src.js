@@ -198,8 +198,9 @@ H.setOptions({
                  * In styled mode, the border is given the
                  * `.highcharts-focus-border` class.
                  *
-                 * @type  {Highcharts.CSSObject}
-                 * @since 6.0.3
+                 * @type    {Highcharts.CSSObject}
+                 * @default { "color": "#335cad", "lineWidth": 2, "borderRadius": 3 }
+                 * @since   6.0.3
                  */
                 style: {
 
