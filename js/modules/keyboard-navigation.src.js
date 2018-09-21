@@ -198,6 +198,7 @@ H.setOptions({
                  * In styled mode, the border is given the
                  * `.highcharts-focus-border` class.
                  *
+                 * @type  {Highcharts.CSSObject}
                  * @since 6.0.3
                  */
                 style: {
@@ -205,6 +206,7 @@ H.setOptions({
                     /**
                      * Color of the focus border.
                      *
+                     * @ignore
                      * @type  {Highcharts.ColorString}
                      * @since 6.0.3
                     */
@@ -213,6 +215,7 @@ H.setOptions({
                     /**
                      * Line width of the focus border.
                      *
+                     * @ignore
                      * @since 6.0.3
                     */
                     lineWidth: 2,
@@ -220,6 +223,7 @@ H.setOptions({
                     /**
                      * Border radius of the focus border.
                      *
+                     * @ignore
                      * @since 6.0.3
                     */
                     borderRadius: 3
@@ -782,7 +786,7 @@ H.Chart.prototype.highlightAdjacentSeries = function (down) {
  *
  * @param {boolean} down
  *
- * @return {Highcharts.Point[false}
+ * @return {Highcharts.Point|false}
  */
 H.Chart.prototype.highlightAdjacentPointVertical = function (down) {
     var curPoint = this.highlightedPoint,
